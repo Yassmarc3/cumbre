@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================
+     EL MISMO CANAL EN FORMATO ATOM · Club de Senderismo Cumbre
+     ============================================================ -->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <!-- Datos del canal: obligatorios id, title y updated -->
+  <id>https://www.ejemplo.es/atom.xml</id>
+  <title>Club de Senderismo Cumbre · Próximas salidas</title>
+  <subtitle>Avisos de las salidas y noticias del club.</subtitle>
+  <updated>2026-10-26T09:00:00Z</updated>
+  <link rel="self" href="https://www.ejemplo.es/atom.xml"/>
+  <link rel="alternate" href="https://www.ejemplo.es/"/>
+  <author>
+    <name>Club de Senderismo Cumbre</name>
+  </author>
+
+  <!-- Cada noticia es una entry -->
+  <entry>
+    <id>https://www.ejemplo.es/salidas/barranco-verde.html</id>
+    <title>Salida al Barranco verde</title>
+    <link href="https://www.ejemplo.es/salidas/barranco-verde.html"/>
+    <updated>2026-10-24T10:00:00Z</updated>
+    <summary>Ruta de nivel bajo, apta para familias. Salida a las 9:00 desde la plaza.</summary>
+    <category term="Nivel bajo"/>
+  </entry>
+
+  <entry>
+    <id>https://www.ejemplo.es/salidas/cumbre-norte.html</id>
+    <title>Cumbre norte: plazas limitadas</title>
+    <link href="https://www.ejemplo.es/salidas/cumbre-norte.html"/>
+    <updated>2026-10-26T08:30:00Z</updated>
+    <summary>Ruta de nivel alto. Imprescindible inscribirse antes del jueves.</summary>
+    <category term="Nivel alto"/>
+  </entry>
+</feed>

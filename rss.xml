@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================
+     CANAL RSS 2.0 · Club de Senderismo Cumbre (club ficticio)
+     ============================================================ -->
+<rss version="2.0">
+  <channel>
+    <!-- Datos del canal: obligatorios title, link y description -->
+    <title>Club de Senderismo Cumbre · Próximas salidas</title>
+    <link>https://www.ejemplo.es/</link>
+    <description>Avisos de las salidas y noticias del club.</description>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 26 Oct 2026 09:00:00 +0000</lastBuildDate>
+
+    <!-- Cada noticia es un item -->
+    <item>
+      <title>Salida al Barranco verde</title>
+      <link>https://www.ejemplo.es/salidas/barranco-verde.html</link>
+      <description>Ruta de nivel bajo, apta para familias. Salida a las 9:00 desde la plaza.</description>
+      <pubDate>Sat, 24 Oct 2026 10:00:00 +0000</pubDate>
+      <guid>https://www.ejemplo.es/salidas/barranco-verde.html</guid>
+      <category>Nivel bajo</category>
+    </item>
+
+    <item>
+      <title>Cumbre norte: plazas limitadas</title>
+      <link>https://www.ejemplo.es/salidas/cumbre-norte.html</link>
+      <description>Ruta de nivel alto. Imprescindible inscribirse antes del jueves.</description>
+      <pubDate>Mon, 26 Oct 2026 08:30:00 +0000</pubDate>
+      <guid>https://www.ejemplo.es/salidas/cumbre-norte.html</guid>
+      <category>Nivel alto</category>
+    </item>
+  </channel>
+</rss>
